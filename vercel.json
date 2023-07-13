@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://catuser.com/$1",
+      "statusCode": 301
+    }
+  ]
+}
